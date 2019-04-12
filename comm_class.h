@@ -3,10 +3,14 @@
 
 #ifdef ARDUINO
 #include "../standard_libs/byte_helper.h"
+#include "Arduino.h"
 #else
 #include "byte_helper.h"
+#include <iostream>
 #include <vector>
 #endif
+
+using namespace std;
 
 class CommObject{
     public:
