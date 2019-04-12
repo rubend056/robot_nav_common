@@ -2,7 +2,7 @@
 #define COMM_CLASS
 
 #ifdef ARDUINO
-#include "../standard_libs/byte_helper.h"
+#include "byte_helper.h"
 #include "Arduino.h"
 #else
 #include "byte_helper.h"
